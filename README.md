@@ -19,7 +19,7 @@
    <p><img src="spr2.JPG/"></p>
    <p><img src="spr3.JPG/"></p>
    <p><img src="spr4.JPG/"></p></li>
-   <p>W programie dla podanych wartości diagnostycznych wyniki się pokrywają></p>
+   <p>W programie dla podanych wartości diagnostycznych wyniki się pokrywają</p>
    <p><img src="fin.PNG"/></p>
 </ol>
    
