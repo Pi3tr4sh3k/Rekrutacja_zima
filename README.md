@@ -5,7 +5,7 @@
   <p>Pierwszym krokiem było rozpisanie grafu dla wszystkich tras. Graf prezentuje się następująco:</p>
    <p><img src=graph.png/></p></li>
    <h2><li>Zasada działania algorytmu</h2>
-      <p>Program posługuje się algorytmem Dijkstry do odnajdowania najkrótszej ścieżki
+      <p>Program posługuje się algorytmem Dijkstry do odnajdowania najkrótszej ścieżki.
          Jako pierwsze zakładam, że wszystkie odległości od wszystkich punktów poza startowym wynoszą nieskończoność.
          Tworzymy wektor, który przechowuje odległości od pkt wyjściowego wraz z aktualnym punktem.
          Zwalniamy utworzoną parę i porównuję długości ścieżek tworząc kolejne pary tak jak wyżej. Badane są wszystkie kombinacje wyjściowe od początkowego punktu.
