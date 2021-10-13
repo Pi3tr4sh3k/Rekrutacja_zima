@@ -15,12 +15,12 @@
          Na samym końcu jest zwracana odległość do konkretnego wierzchołka który jest badany.</p></li>
     <h2><li>Sprawdzenie poprawności wykonania algorytmu na grafie</h2>
       <p>Dla danych r=5, g=1.5, b=0.1, dla danego ciągu BABDC program powinien zwracać wartość 21,5. Następnie sumując długości ścieżek sprawdzam zgodność z rozwiązaniem.</p>
-   <p><img src="spr1.jpg/"></p>
-   <p><img src="spr2.jpg/"></p>
-   <p><img src="spr3.jpg/"></p>
-   <p><img src="spr4.jpg/"></p></li>
+   <p><img src="spr1.JPG/"></p>
+   <p><img src="spr2.JPG/"></p>
+   <p><img src="spr3.JPG/"></p>
+   <p><img src="spr4.JPG/"></p></li>
    <p>W programie dla podanych wartości diagnostycznych wyniki się pokrywają></p>
-   <p><img src="fin.png"/></p>
+   <p><img src="fin.PNG"/></p>
 </ol>
    
    
