@@ -9,7 +9,7 @@ typedef std::vector<VPII> VVPII;
 
 float DijkstrasShortestPath (int source_node, int node_count, VVPII& graph, int dest_node) {
 
-
+    //poczatkowa deklaracja odleglosci do wszystkich wierzcholkow (odleglosc od pkt startowego = 0)
     int INF = INT_MAX;
     std::vector<float> dist(node_count, INF);
     std::set<PII> set_length_node;
@@ -17,9 +17,9 @@ float DijkstrasShortestPath (int source_node, int node_count, VVPII& graph, int 
 
     dist[source_node] = 0;
     set_length_node.insert(PII(0,source_node));
-
+    //petla while wykonujaca operacje obliczania odleglosci pomiedzy wierzcholkami
     while (!set_length_node.empty()) {
-
+        //pobieramy obecnie badany wierzcholek i badamy odległości pomiędzy wierzchołkami sąsiadującymi
         PII top = *set_length_node.begin();
         set_length_node.erase(set_length_node.begin());
 
@@ -37,6 +37,7 @@ float DijkstrasShortestPath (int source_node, int node_count, VVPII& graph, int 
                 if (dist[adj_node] != INF) {
                     set_length_node.erase(set_length_node.find(PII(dist[adj_node],adj_node)));
                 }
+                //obliczanie odleglosci - zapis do tablicy przechowujacej odleglosci od poczatkowego wierzcholka
                 dist[adj_node] = length_to_adjnode + dist[current_source_node];
                 set_length_node.insert(PII(dist[adj_node], adj_node));
             }
@@ -132,8 +133,8 @@ int main(){
     int node_count  = 15;
 
 
-   int source_node = 0;
-   int dest_node = 0;
+   int source_node=0;
+   int dest_node=0;
     float amount = 0;
     for (int i = 0; i < h_len-1; i++)
     {
